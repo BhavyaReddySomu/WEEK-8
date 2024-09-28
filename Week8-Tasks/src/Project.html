@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="py-10 text-center">
+        <h1 class="text-4xl font-bold">My Portfolio</h1>
+        <nav class="mt-4">
+            <a href="#about" class="mx-2 hover:text-blue-600 transition">About Me</a>
+            <a href="#projects" class="mx-2 hover:text-blue-600 transition">Projects</a>
+            <a href="#skills" class="mx-2 hover:text-blue-600 transition">Skills</a>
+            <a href="#contact" class="mx-2 hover:text-red-600 transition">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="py-20 bg-white text-center">
+        <h2 class="text-3xl font-semibold">About Me</h2>
+        <p class="mt-4 px-4 md:px-0 max-w-2xl mx-auto">I am a frontend developer.</p>
+    </section>
+
+    <section id="project" class="py-20 bg-gray-200">
+        <h2 class="text-3xl font-semibold text-center">Projects</h2>
+        <div class="flex flex-wrap justify-center mt-8 space-x-4 space-y-4">
+            
+            <div class="bg-white shadow-lg rounded-lg p-6 w-80 hover:scale-105 transition-transform duration-300">
+                <h3 class="text-xl font-bold">Project 1</h3>
+                <p class="mt-2">Description of project 1.</p>
+            </div>
+            
+           
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-white text-center">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="mt-4 flex justify-center space-x-4">
+            <span class="bg-pink-300 rounded-full px-4 py-2">HTML</span>
+            <span class="bg-pink-300 rounded-full px-4 py-2">CSS</span>
+            <span class="bg-pink-300 rounded-full px-4 py-2">JavaScript</span>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-200 text-center">
+        <h2 class="text-3xl font-semibold">Contact</h2>
+        <p class="mt-4">Feel free to reach out!</p>
+        <form class="mt-4">
+            <input type="email" placeholder="Your Email" class="p-2 border rounded" />
+            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Send</button>
+        </form>
+    </section>
+
+    <footer class="py-10 text-center">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
